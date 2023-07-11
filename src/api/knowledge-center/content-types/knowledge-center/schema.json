@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "knowledge_centers",
+  "info": {
+    "singularName": "knowledge-center",
+    "pluralName": "knowledge-centers",
+    "displayName": "KnowledgeCenter",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "knowledgeCenter": {
+      "type": "component",
+      "repeatable": true,
+      "component": "knowledge-center.long-desc-card"
+    },
+    "heroSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.hero-section"
+    }
+  }
+}

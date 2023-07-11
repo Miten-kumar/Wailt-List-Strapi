@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "font_styles",
+  "info": {
+    "singularName": "font-style",
+    "pluralName": "font-styles",
+    "displayName": "FontStyle"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "fontFamily": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_why_us_why_us_cards",
+  "info": {
+    "displayName": "WhyUsCards"
+  },
+  "options": {},
+  "attributes": {
+    "cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.cards"
+    }
+  }
+}

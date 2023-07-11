@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_business_business_sections",
+  "info": {
+    "displayName": "BusinessSection"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "section": {
+      "type": "component",
+      "repeatable": true,
+      "component": "business.business-cards"
+    }
+  }
+}

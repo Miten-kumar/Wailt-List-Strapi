@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_waitlist_survey_waitlist_options",
+  "info": {
+    "displayName": "WaitlistOptions"
+  },
+  "options": {},
+  "attributes": {
+    "Option": {
+      "type": "text"
+    }
+  }
+}

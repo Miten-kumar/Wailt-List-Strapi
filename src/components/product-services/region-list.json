@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_product_services_region_lists",
+  "info": {
+    "displayName": "RegionList"
+  },
+  "options": {},
+  "attributes": {
+    "regionName": {
+      "type": "string"
+    },
+    "ProductList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "product-services.product-list"
+    }
+  }
+}

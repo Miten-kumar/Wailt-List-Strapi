@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_knowledge_center_long_desc_cards",
+  "info": {
+    "displayName": "longDescCard",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "bgColor": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "links": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.link"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "heading"
+    }
+  }
+}

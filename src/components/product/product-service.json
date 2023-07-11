@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_product_product_services",
+  "info": {
+    "displayName": "Product-Service"
+  },
+  "options": {},
+  "attributes": {
+    "productSingle": {
+      "type": "component",
+      "repeatable": true,
+      "component": "knowledge-center.long-desc-card"
+    },
+    "heading":{
+      "type":"string"
+    }
+  }
+}

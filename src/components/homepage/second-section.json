@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_homepage_second_sections",
+  "info": {
+    "displayName": "secondSection"
+  },
+  "options": {},
+  "attributes": {
+    "cards": {
+      "type": "component",
+      "repeatable":true,
+      "component":"shared.cards"
+    }
+  }
+}

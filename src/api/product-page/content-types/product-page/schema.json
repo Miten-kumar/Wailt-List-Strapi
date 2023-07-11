@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "product_pages",
+  "info": {
+    "singularName": "product-page",
+    "pluralName": "product-pages",
+    "displayName": "productPage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "landingPage": {
+      "type": "component",
+      "repeatable": true,
+      "component": "product.product-list"
+    }
+  }
+}

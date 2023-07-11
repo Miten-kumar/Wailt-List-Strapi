@@ -1,0 +1,48 @@
+{
+  "kind": "collectionType",
+  "collectionName": "knowledge_blogs",
+  "info": {
+    "singularName": "knowledge-blog",
+    "pluralName": "knowledge-blogs",
+    "displayName": "Knowledge-Blog",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "bgColor": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "media": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "link": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.link"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "heading"
+    },
+    "shortDescription": {
+      "type": "text"
+    }
+  }
+}

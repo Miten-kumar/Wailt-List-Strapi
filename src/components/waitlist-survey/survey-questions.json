@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_waitlist_survey_survey_questions",
+  "info": {
+    "displayName": "SurveyQuestions",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Question": {
+      "type": "text"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "question_options": {
+      "type": "component",
+      "repeatable": true,
+      "component": "waitlist-survey.waitlist-options"
+    }
+  }
+}

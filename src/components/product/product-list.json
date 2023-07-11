@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_product_product_lists",
+  "info": {
+    "displayName": "productList"
+  },
+  "options": {},
+  "attributes": {
+    "productCardList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "product.product-service"
+    },
+    "heading":{
+      "type":"string"
+    }
+  }
+}
