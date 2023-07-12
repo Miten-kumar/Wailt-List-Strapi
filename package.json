@@ -11,11 +11,13 @@
   },
   "dependencies": {
     "@strapi/plugin-graphql": "^4.11.4",
-    "pg": "^8.8.0",
     "@strapi/plugin-i18n": "4.11.4",
     "@strapi/plugin-users-permissions": "4.11.4",
     "@strapi/strapi": "4.11.4",
-    "better-sqlite3": "8.0.1"
+    "better-sqlite3": "8.0.1",
+    "pg": "^8.8.0",
+    "strapi-plugin-netlify-deployments": "^2.0.0",
+    "strapi-plugin-vercel-deploy": "^1.4.0"
   },
   "author": {
     "name": "A Strapi developer"
